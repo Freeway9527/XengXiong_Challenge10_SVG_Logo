@@ -3,7 +3,7 @@
  [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
  ## Description 
- This program will allow you to generate SVG logos base on your choice of shapes (triangle, circle or square). You will also be given the option to color your shape and text by color keyword or hexadecimal numbers. Input your text choice of up to 3 characters and no less than 1 character.
+ This program will allow you to generate SVG logos base on your choice of shapes (triangle, circle or square). You are allow up to 3 characters and no less then 1. You will also be able to set colors for your text and shape.
 
  Watch a video demonstration:
 [SVG Logo Demo](https://drive.google.com/file/d/16kHebWX-qffmJSLe7_5h_8maaH-eEqLz/view)
@@ -32,6 +32,10 @@ To install node.js onto your computer go to your terimal and type in "npm instal
 In the terimal you will also want to download "jest" by typing in "npm i jest - D" this will install Jest as a devDependency where we can do our testing.
 
 To run the application, within the terminal, type in the command "node index.js"
+
+## Usage
+
+In your terinmal, type in "npm index.js" to start. You will be given a series of questions before your logo will be generated. You must enter the charcters that you would like, minimum of 1 and maximum of 3 characters. Then you will be give the options to choose your text color and shape color whether it is by "color keyword" such as red, blue, green etc or by "hexadecimal" such as #FF0000 (red), #0000FF (blue), #00FF00 (green) etc. If during anything that you are answering the prompts and you give an invaild answer you will be prompt to try again. You must enter valid answers, when all questions are valid, your SVG Logo will be generated with the file name "logo.svg" located in the 'examples' folder. Refer to the video provied as needed.
 
 ## License 
 
