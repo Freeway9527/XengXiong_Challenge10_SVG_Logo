@@ -31,7 +31,6 @@ To install node.js onto your computer go to your terimal and type in "npm instal
 
 In the terimal you will also want to download "jest" by typing in "npm i jest - D" this will install Jest as a devDependency where we can do our testing.
 
-To run the application, within the terminal, type in the command "node index.js"
 
 ## Usage
 
@@ -43,7 +42,7 @@ In your terinmal, type in "npm index.js" to start. You will be given a series of
 
 ## Contributing
 
-Created for module 10 challege of the U of M full stack boot camp. Contact me with ideas and request for changes.
+Created for Module 10 Challege of the U of M full stack boot camp. Contact me with ideas and request for changes.
 
 ## Tests
  Each shape is tested for a render, shape color, text, and text color. Type in "npm test" in the cammand line, and jest will run the test.
